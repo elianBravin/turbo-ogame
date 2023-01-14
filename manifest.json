@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Turbo Ogame",
+  "version": "1.0.0",
+  "description": "Realiza algunas tareas repetitivas en ogame",
+  "action": {
+    "default_popup": "src/html/popup.html",
+    "default_icon": "resources/extension-icon.png"
+  },
+  "icons": {
+    "16": "resources/extension-icon.png",
+    "32": "resources/extension-icon.png",
+    "48": "resources/extension-icon.png",
+    "128": "resources/extension-icon.png"
+  },
+  "permissions": [
+    "nativeMessaging",
+    "tabs",
+    "tabGroups"
+  ]
+}

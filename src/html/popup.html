@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="./../css/menu.css">
+
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css”/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+
+    <!--<title>Dashboard Sidebar Menu</title>-->
+</head>
+<body class="dark">
+<nav class="sidebar close">
+    <header>
+        <div class="image-text">
+                <span class="image">
+                    <!--<img src="logo.png" alt="">-->
+                </span>
+
+            <div class="text logo-text">
+                <span class="name">Turbo Ogame</span>
+            </div>
+        </div>
+
+        <i class='bx bx-chevron-right toggle'></i>
+    </header>
+
+    <div class="menu-bar">
+        <div class="menu">
+            <ul class="menu-links">
+                <li class="nav-link">
+                    <a href="#">
+                        <img src="./../../resources/rocket.svg" class="icon-svg">
+                        <span class="text nav-text">Expeditions</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="#">
+                        <img src="./../../resources/sword.svg" class="icon-svg">
+                        <span class="text nav-text">Attacks</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="#">
+                        <img src="./../../resources/galaxy.svg" class="icon-svg">
+                        <span class="text nav-text">Galaxy</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="#">
+                        <img src="./../../resources/buildings.svg" class="icon-svg">
+                        <span class="text nav-text">Buildings</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="#">
+                        <img src="./../../resources/configs.svg" class="icon-svg">
+                        <span class="text nav-text">Configs</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="bottom-content">
+            <li class="mode">
+                <div class="sun-moon">
+                    <i class='bx bx-moon icon moon'></i>
+                    <i class='bx bx-sun icon sun'></i>
+                </div>
+                <span class="mode-text text">Start</span>
+
+                <div class="play-switch">
+                    <span id="switch-play" class="switch-off"></span>
+                </div>
+            </li>
+
+        </div>
+    </div>
+
+</nav>
+
+<section class="home">
+    <div class="text">Expeditions</div>
+</section>
+<script type="module" src="./../javascript/popup.js"></script>
+</body>
+</html>
